@@ -1,0 +1,162 @@
+# Day 07 - Week 1 Complete Review
+# CS50P Python Journey - Salik
+
+# ==========================================
+# STRINGS - Day 01 and Day 02
+# ==========================================
+
+# version 1
+name = input("What's your name? ")
+print(f"Hello, {name}")
+
+# version 2
+name = input("What's your name? ")
+name = name.strip()
+name = name.capitalize()
+print(f"Hello, {name}")
+
+# version 3
+name = input("What's your name? ")
+name = name.strip()
+name = name.title()
+print(f"Hello, {name}")
+
+# version 4 - chained
+name = input("What's your name? ").strip().title()
+print(f"Hello, {name}")
+
+
+# ==========================================
+# INTEGERS AND FLOATS - Day 03
+# ==========================================
+
+# integers version 1
+x = 1
+y = 2
+z = x + y
+print(z)
+
+# integers version 2
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+z = x + y
+print(z)
+
+# integers version 3
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+print(x + y)
+
+# floats version 1
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+z = x + y
+print(z)
+
+# floats version 2 - round
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+z = round(x + y)
+print(z)
+
+# floats version 3 - comma formatting
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+z = round(x + y)
+print(f"{z:,}")
+
+# division version 1
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+z = x / y
+print(z)
+
+# division version 2 - 2 decimal places
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+z = x / y
+print(f"{z:.2f}")
+
+# all operators
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+print(x % y)
+
+
+# ==========================================
+# FUNCTIONS - Day 04
+# ==========================================
+
+# version 1 - no parameter
+def hello():
+    print("hello")
+
+name = input("What's your name? ")
+hello()
+
+# version 2 - with parameter
+def hello(to):
+    print("hello,", to)
+
+name = input("What's your name? ")
+hello(name)
+
+# version 3 - default parameter
+def hello(to="world"):
+    print("hello,", to)
+
+hello()
+name = input("What's your name? ")
+hello(name)
+
+# version 4 - square with main()
+def main():
+    x = int(input("What's x? "))
+    print("squared is", square(x))
+
+def square(n):
+    return n * n
+
+main()
+
+
+# ==========================================
+# CALCULATOR - Day 05
+# ==========================================
+
+def main():
+    print("=== Day 05 Calculator ===")
+
+    x = float(input("Enter first number: "))
+    y = float(input("Enter second number: "))
+
+    print("\nResults:")
+    print(f"{x} + {y} = {x + y}")
+    print(f"{x} - {y} = {x - y}")
+    print(f"{x} * {y} = {x * y}")
+    print(f"{x} / {y} = {x / y}")
+    print(f"{x} % {y} = {x % y}")
+
+if __name__ == "__main__":
+    main()
+
+
+# ==========================================
+# CONDITIONS - Day 06
+# ==========================================
+
+x = int(input("Enter a number: "))
+
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("Zero")

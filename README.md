@@ -57,8 +57,8 @@ python-learning-log/
 
 | Week | Topic | Status |
 |------|-------|--------|
-| Week 1 | Variables, data types, print | 🔄 In progress |
-| Week 2 | Conditionals, loops | ⏳ Upcoming |
+| Week 1 | Variables, data types, print | Done |
+| Week 2 | Conditionals, loops | ⏳ In Progress|
 | Week 3 | Functions | ⏳ Upcoming |
 | Week 4 | Data structures | ⏳ Upcoming |
 

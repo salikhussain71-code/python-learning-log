@@ -74,7 +74,7 @@ No paid courses. Everything free.
 
 ---
 
-*If you're a Pakistani student starting from zero — this repo is proof it's possible. Follow along.*
+*If you're a student starting from zero — this repo is proof it's possible. Follow along.*
 
 ---
 

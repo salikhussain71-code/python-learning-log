@@ -2,7 +2,7 @@
 Daily Python practice — exercises, programs, and notes from zero to proficient.
 
 **Started:** May 2026
-**Goal:** Build solid Python foundations before BS CS at Air University Islamabad (Fall 2026)
+**Goal:** Build solid Python foundations BS CS at IQRA University Islamabad (Fall 2026)
 
 ---
 
